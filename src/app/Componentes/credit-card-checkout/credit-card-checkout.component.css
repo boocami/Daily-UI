@@ -1,0 +1,136 @@
+.contenedor-nav{
+    height: 4.540763673890609vh;
+    border-bottom: 3px solid #D7D7D7;
+    margin-top: 0.688rem;
+}
+.nav{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+.nav{
+    justify-content: flex-start;
+}
+
+.title, .items{
+    height: auto;
+}
+
+.nav.items{
+    flex-direction: row-reverse;
+}
+li{
+    margin-right: 1.875rem;
+}
+.contenedor-credit-card{
+    height: auto;
+    /* margin-top: 4.063rem; */
+}
+.product, .credit-card{
+    height: auto;
+} 
+.flecha{
+    margin-right: 1.563rem;
+}
+.product-items{
+    flex-direction: row;
+    margin-top: 4rem;
+}
+.img-product{
+    width: 10%;
+    background: aquamarine;
+    border-radius: 20%;
+    margin-right: 1.375rem;
+}
+.name-product{
+    margin-right: 9rem;
+}
+
+.cantidad-compra .icon{
+margin-left: 1rem;
+margin-right: 1rem;
+}
+.cantidad{
+    background-color: cornflowerblue;
+    border-radius: 60%;
+    width: 50%;
+    font-size: x-large;
+    margin-left: 1rem;
+margin-right: 1rem;
+}
+
+.icon-basurero{
+margin-left: 3.25rem;
+}
+.total{
+/* margin-top: 5.188rem;
+flex-direction: row;
+    margin-left: -59%;*/
+    margin-bottom: 5.563rem;
+    border-bottom: 3px solid #D7D7D7; 
+}
+
+
+.total p{
+    margin-left: 2.813rem;
+}
+.shopping p{
+    margin-left: 2rem;
+}
+select.classic {
+    background-image:
+      linear-gradient(45deg, transparent 50%, blue 50%),
+      linear-gradient(135deg, blue 50%, transparent 50%),
+      linear-gradient(to right, skyblue, skyblue);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.classic:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      linear-gradient(to right, gray, gray);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+  }
+  select{
+      width: 32.938rem;
+  }
+  .shopping{
+      margin-bottom: 1.688rem;
+  }
+  .inputTarject{
+      width: 33.625rem;
+      height: 4.875rem;
+      margin-bottom: 3.125rem;
+      margin-top: 0.313rem;
+      border: 3px solid #D7D7D7;
+      border-radius: 20px;
+  }
+.boton-pedido{
+    background-color: #DFE6FA;
+    border: 3px solid  #DFE6FA;
+}
+.medim{
+    width: 15.8125rem;
+    height: 4.875rem;
+}
+.dateExp{
+    margin-right: 1rem;
+}

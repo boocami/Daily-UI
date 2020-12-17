@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "Daily-UI": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Daily-UI"
+    }
+  },
+  "defaultProject": "Daily-UI",
+  "cli": {
+    "analytics": "fdfdc38a-b2da-4947-bbbf-af743d8bbbaf"
+  }
 }
