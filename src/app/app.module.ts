@@ -145,6 +145,7 @@ import { GiveawayComponent } from './Componentes/giveaway/giveaway.component';
 import { AdvertisementComponent } from './Componentes/advertisement/advertisement.component';
 import { CategoriesComponent } from './Componentes/categories/categories.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatPasswordStrengthModule } from '@angular-material-extensions/password-strength';
 
 @NgModule({
   declarations: [
@@ -294,7 +295,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PortalModule,
     ScrollingModule,
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatPasswordStrengthModule
   ],
   providers: [],
   bootstrap: [AppComponent]

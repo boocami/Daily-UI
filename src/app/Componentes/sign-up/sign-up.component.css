@@ -1,0 +1,176 @@
+  .container{
+      height: 100vh;
+  }
+  .left{
+      width: 50%;
+  }
+  .left .titulo{
+      margin-left: 2.5rem;
+      margin-top: 2.438rem;
+  }
+  .left p{
+      margin-left: 2.5rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      font-size: 2rem;
+  }
+  .right{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: #EBAE44;
+}
+.right h3{
+    margin-bottom: 1.5rem;
+}
+.right p{
+    margin: 0;
+    margin-bottom: 3rem;
+}
+.right p a{
+    margin-left: 0.688rem;
+}
+.right .boton-social{
+    margin-bottom: 1.75rem;
+}
+
+.right .boton-social button{
+    margin-right: 1rem;
+    display: inline-block;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border-radius: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 70px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+}
+.right .boton-social button:hover, .right .boton-social p {
+
+}
+.right .boton-social button.active{
+  background-color: lightgrey;
+}
+.right .boton-social button img{
+    width: 20px;
+    height: 20px;
+}
+form{
+  width: 50%;
+}
+.right form .accept-tems{
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
+}
+
+.right .link-tems{
+  margin-left: 1rem;
+}
+.right .sign-up{
+  background-color:#4481EB;
+}
+@media screen and (max-width:1024px){
+  .label-checkbox{
+    flex-direction: column;
+  display: flex;
+  }
+}
+   @media screen and (max-width:888px){
+    .container{
+      flex-direction: column;
+     }
+     .left{
+      width: 100%;
+    }
+    .right{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:540px){
+    .label-checkbox{
+      flex-direction: column;
+    display: flex;
+    }
+  }
+  @media screen and (max-width:425px) {
+      .container{
+          flex-direction: column;
+      }
+      .left{
+        width: 100%;
+      }
+      .left p{
+          display: none;
+      }
+      .right p{
+          font-size: 2.2rem;
+      }
+      .right{
+        width: 100%;
+      }
+      form{
+        width: 80%;
+      }
+  }
+  @media screen and (max-width:375px){
+    form{
+      width: 80%;
+    }
+  }
+  @media screen and (max-width:320px){
+    form{
+      width: 80%;
+    }
+    .label-checkbox{
+      flex-direction: column;
+    display: flex;
+    }
+  }
+  @media screen and (max-width:280px){
+    .container{
+      margin-right: 20px;
+    }
+    .container h3{
+      font-size: 2.8rem;
+    }
+    .right p{
+      font-size: 1.8rem;
+    }
+    .right .boton-social button{
+      line-height: 16px;
+    }
+    .right .boton-social button:not(.active) img{
+      width: 40px;
+      height: 40px;
+    }
+    .right .boton-social .active img{
+      width: 40px;
+      height: 40px;
+    }
+    .right .boton-social .active p{
+      display: none;
+    }
+    form{
+      width: 100%;
+    }
+    .label-checkbox{
+      flex-direction: column;
+    display: flex;
+    }
+
+  }
+ 
