@@ -1,7 +1,11 @@
-  .container{
-      height: 100vh;
-  }
-  .left{
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.left{
       width: 50%;
   }
   .left .titulo{
@@ -10,9 +14,11 @@
   }
   .left p{
       margin-left: 2.5rem;
-      margin-top: 1.5rem;
+      margin-top: 0rem;
       margin-bottom: 1rem;
       font-size: 2rem;
+      color: #3F3D56;
+      font-weight: 600;
   }
   .right{
     align-items: center;
@@ -26,9 +32,12 @@
 .right p{
     margin: 0;
     margin-bottom: 3rem;
+    color:#3F3D56;
+    font-weight: 600;
 }
 .right p a{
     margin-left: 0.688rem;
+    color:blue;
 }
 .right .boton-social{
     margin-bottom: 1.75rem;
@@ -36,32 +45,8 @@
 
 .right .boton-social button{
     margin-right: 1rem;
-    display: inline-block;
-    padding: 10px 16px;
-    cursor: pointer;
-    border: none;
-    text-decoration: none;
-    -webkit-transition: all 200ms ease;
-    transition: all 200ms ease;
-    border-radius: 8px;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    position: relative;
-    outline: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    height: 70px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: center;
-    color: black;
 }
-.right .boton-social button:hover, .right .boton-social p {
 
-}
 .right .boton-social button.active{
   background-color: lightgrey;
 }
@@ -70,7 +55,7 @@
     height: 20px;
 }
 form{
-  width: 50%;
+  width: 100%;
 }
 .right form .accept-tems{
   margin-top: 1.875rem;
@@ -82,6 +67,12 @@ form{
 }
 .right .sign-up{
   background-color:#4481EB;
+}
+.right form .label-checkbox{
+  font-family:'Dosis', sans-serif;
+  font-size: larger;
+  font-weight: 500;
+
 }
 @media screen and (max-width:1024px){
   .label-checkbox{
@@ -138,6 +129,9 @@ form{
     .label-checkbox{
       flex-direction: column;
     display: flex;
+    }
+    .right .boton-social .active p{
+      display: none;
     }
   }
   @media screen and (max-width:280px){
