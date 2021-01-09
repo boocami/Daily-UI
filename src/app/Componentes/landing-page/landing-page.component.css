@@ -1,0 +1,85 @@
+body{
+    background-color: lemonchiffon;
+}
+button{
+    background-color: #0CB4E9;
+}
+img{
+    width: 35%;
+}
+.container{
+    margin: 3rem 4rem;
+    height: 90vh;
+}
+
+.container .top-nav{
+    margin-bottom: 5rem;
+}
+.nav-horizontal li{
+    margin-right: 2rem;
+}
+
+.nav-horizontal li a{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
+    color: #B4E90C;
+}
+.boton-login{
+    width: 130px;
+    height: 40px;
+    color: white;
+}
+.left{
+    margin-top: 4%;
+    margin-left: 6%;
+    
+}
+h1{
+    font-size: 4rem;
+    font-weight:800;
+    color: #B4E90C;
+}
+.right img{
+    width: 50%;
+}
+.boton-learMore{
+    margin-top: 2.063rem;
+    width: 140px;
+}
+h2{
+    margin-bottom: 0;
+    font-size: 40px;
+    color: #B4E90C;
+}
+p{
+    color: gray;
+    font-weight: 600;
+}
+.texto{
+    font-size: 2rem;
+    font-weight: 600;
+    color: gray;
+}
+
+.services{
+    margin-top: 3.5rem;
+}
+
+.box-services{
+    margin-right: 8.313rem;
+    margin-left: 8.313rem;
+}
+.img-Services{
+    width: 20%;
+}
+.dog{
+    width: 13%;
+}
+.estetoscopio{
+    width: 17.5%;
+}
+.services h2{
+    font-size: 20px;
+    font-weight: 600;
+}

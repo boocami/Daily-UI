@@ -66,6 +66,9 @@ flex-direction: column;
     justify-content: center;
     justify-items: center;
 }
+.center-text{
+    text-align: center;
+}
 .container{
     height: 100vh;
 }
@@ -99,3 +102,38 @@ button{
     text-align: center;
     color: black;
 }
+
+.nav-horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav-horizontal ul li {
+    float: left;
+    cursor: pointer;
+  }
+ .nav-horizontal ul li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+/* 
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+  li a.active {
+    color: white;
+    background-color: #4CAF50;
+  } */
